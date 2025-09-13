@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bài tập phỏng vấn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div style="width:100%">
+      <h3>Menu</h3>
+      <button class="home-btn" onclick="resetContent()">Trang chủ</button>
+      <button onclick="showContent(1)">Câu 1</button>
+      <button onclick="showContent(2)">Câu 2</button>
+      <button onclick="showContent(3)">Câu 3</button>
+      <button onclick="showContent(4)">Câu 4</button>
+      <button onclick="showContent(5)">Câu 5</button>
+    </div>
+  </div>
+
+  <!-- Nội dung chính -->
+  <div class="content">
+    <header>
+      <h1>Bài tập phỏng vấn</h1>
+    </header>
+    <main id="mainContent">
+      <div class="home-content">
+      </div>
+    </main>
+    <footer>
+      <p>Trần Quốc Việt</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
